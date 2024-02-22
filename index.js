@@ -5,8 +5,8 @@ const $menuAmbur = $(".header__container-menu"),
 const animateScroll = (element)=> element.classList.add("animated-scroll");
 
 document.addEventListener("DOMContentLoaded", (e)=>{
-  setTimeout(animateScroll($layautImg),
-    6000);
+    setTimeout(()=>animateScroll($layautImg),
+    7000);
 });
 
 document.addEventListener("click", (e)=>{
@@ -15,3 +15,5 @@ document.addEventListener("click", (e)=>{
         $menuAmbur.classList.toggle("header__container-menu--active");
     }
 });
+
+
